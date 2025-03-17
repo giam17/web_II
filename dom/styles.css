@@ -88,6 +88,11 @@ form {
   margin: 5px 0px;
   position: relative;
 }
+.card:hover{
+  background-color: #464646;
+  color: #dadada;
+  transform: scale(1.05);
+}
 
 .task {
   padding: 10px;
