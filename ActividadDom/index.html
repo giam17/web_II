@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio personal</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/mensaje.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link" href="index.html">Home</a>
+            <a class="header__menu__link" href="about.html">Sobre mí</a>
+        </nav>
+    </header>
+    <main class="presentacion">
+        <section class="presentacion__contenido">
+            <h1 class="presentacion__contenido__titulo">
+                Eleve tu negocio digital a otro nivel 
+                <strong class="titulo-destaque">con un Front-end de calidad!</strong>
+            </h1>
+            <p class="presentacion__contenido__texto">¡Hola! presentación individual</p>
+
+            <div class="presentacion__enlaces">
+                <h2 class="presentacion__enlaces__subtitulo">Accede a mis redes</h2>
+                <a class="presentacion__enlaces__link" href="https://github.com/giam17">
+                    <img src="assets/github.png"> Github
+                </a>
+                <a class="presentacion__enlaces__link" href="www.linkedin.com/in/giam-tejerina-71054b2b6">
+                    <img src="assets/tiktok.png"> TikTok
+                </a>
+                <a class="presentacion__enlaces__link" href="https://www.instagram.com/giamtejerina?igsh=aDNuNGg2a29sYno0">
+                    <img src="assets/instagram.png" width="32px" height="32px"> Instagram
+                </a>
+            </div>
+        </section>
+        <img class="presentacion__imagen" src="assets/persona.jpg" width="300" alt="Foto de persona">
+    </main>
+
+    <div class="mensaje">
+        <ul class="mensaje__lista">
+            <h1 class="tituloProyectos">PROYECTOS PERSONALES </h1>
+            <li class="mensaje__item_mensaje__logo">
+                <h2 class="mensaje__item__titulo">Diseño web FIGMA:</h2>
+                <img src="assets/proyectoWeb.png" width="500px" alt="">
+                <img src="assets/Group 10.png" width="150px" alt="">
+                <img src="assets/Group 9.png" width="150px" alt="">
+            </li>
+            <a class="linkProyectos" href="https://www.figma.com/design/daCbdxTsBmg2EC2045QBKN/Untitled?m=auto&t=ltj1QNrIQALUHjuX-1">Ver Proyecto</a>
+            <li class="mensaje__item_mensaje__logo">
+                <img src="assets/Variante1.png" alt="" width="150px">
+                <img src="assets/Variante 3.png" alt="" width="150px">
+                <img src="assets/Variante 11.png" alt="" width="100px">
+                <img src="assets/variante 1e.png" alt="" width="120px">
+                <img src="assets/Variante 32.png" alt="" width="120px">
+                <h2 class="mensaje__item__titulo">Diseño de personajes de videojuegos ¨FIGMA¨</h2>
+            </li>
+            <a class="linkProyectos" href="https://www.figma.com/design/9fFp7uJbts4vjN1f2kKUIE/P3_Tejerina_Giam.?m=auto&t=CZUKTKqjoTTnvAz4-1">Ver Proyecto</a>
+        </ul>
+    </div>
+
+    <section class="contacto">
+        <h2>Contáctame</h2>
+        <form id="contacto-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            <br>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" placeholder="Email" required>
+            <br>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+            <br>  
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="respuesta"></p>
+    </section>
+    <script type="module" src="formulario.js"></script>
+    
+</body>
+</html>
