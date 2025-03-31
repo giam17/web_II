@@ -1,5 +1,6 @@
 //se recupero el arvicho de la de la db.json
 const API_URL = 'http://localhost:3000/posts'
+//esta funcion nos sirve para hacer la conexion al
 const getData =()=>{
     fetch(API_URL)
     .then(response =>{

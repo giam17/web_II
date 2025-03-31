@@ -7,10 +7,46 @@
       "fecha": "2025-03-27"
     },
     {
-      "id": "1",
-      "titulo": "Nuevo Post Creado",
-      "descripcion": "CONTENIDO",
-      "fecha": "2025-03-27"
+      "id": "2266",
+      "titulo": "Nuevo Post",
+      "descripcion": "nueva descripcion",
+      "fecha": "2025-03-31T12:16:53.978Z"
+    },
+    {
+      "id": "d64f",
+      "titulo": "Nuevo Post",
+      "descripcion": "nueva descripcion",
+      "fecha": "2025-03-31T12:18:01.479Z"
+    },
+    {
+      "id": "ca76",
+      "titulo": "Nuevo Post",
+      "descripcion": "nueva descripcion",
+      "fecha": "2025-03-31T12:18:02.747Z"
+    },
+    {
+      "id": "25a3",
+      "titulo": "Nuevo Post",
+      "descripcion": "nueva descripcion",
+      "fecha": "2025-03-31T12:18:17.042Z"
+    },
+    {
+      "id": "081a",
+      "titulo": "Nuevo Post",
+      "descripcion": "nueva descripcion",
+      "fecha": "2025-03-31T12:25:37.592Z"
+    },
+    {
+      "id": "8829",
+      "titulo": "Nuevo Post",
+      "descripcion": "nueva descripcion",
+      "fecha": "2025-03-31T12:30:29.631Z"
+    },
+    {
+      "id": "555d",
+      "titulo": "Nuevo Post",
+      "descripcion": "nueva descripcion",
+      "fecha": "2025-03-31T12:30:31.639Z"
     }
   ]
 }
