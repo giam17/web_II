@@ -1,10 +1,10 @@
 {
   "posts": [
     {
-      "id": "2",
-      "titulo": "Nuevo Post Creado",
-      "descripcion": "Econtenido ",
-      "fecha": "2025-03-27"
+      "titulo": "Actualizado",
+      "descripcion": "actualizado",
+      "fecha": "2025-03-31T13:06:31.739Z",
+      "id": "2"
     },
     {
       "id": "2266",
@@ -47,6 +47,18 @@
       "titulo": "Nuevo Post",
       "descripcion": "nueva descripcion",
       "fecha": "2025-03-31T12:30:31.639Z"
+    },
+    {
+      "id": "d979",
+      "titulo": "Nuevo Post",
+      "descripcion": "nueva descripcion",
+      "fecha": "2025-03-31T13:06:18.801Z"
+    },
+    {
+      "id": "d999",
+      "titulo": "Nuevo Post",
+      "descripcion": "nueva descripcion",
+      "fecha": "2025-03-31T13:06:29.344Z"
     }
   ]
 }
