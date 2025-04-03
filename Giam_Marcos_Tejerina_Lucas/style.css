@@ -1,0 +1,64 @@
+.bodyStyle{
+    background-color: #237a92;
+}
+.tituloStyle{
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.item{
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 20px;
+}
+#container{
+    text-align: center;
+}
+#toggleBtn{
+    background-color: #dd9943;
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+    border-color: transparent;
+}
+#toggleBtn:hover{
+    background-color: #78d2e5;
+    color: #555555;
+}
+
+#countBtn{
+    background-color: #dd5343;
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+    border-radius: 7px;
+    border-color: transparent;
+}
+#countBtn:hover{
+    background-color: #78d2e5;
+    color: #555555;
+}
+
+#addBtn{
+    background-color: #35ad83;
+    color: aliceblue;
+    width: 100px;
+    height: 50px;
+    border-color: transparent;
+    border-radius: 5px;
+}
+#addBtn:hover{
+    background-color: #78d2e5;
+    color: #555555;
+}
+
+#newItem{
+    width: 200px;
+    height: 40px; 
+    text-align: center; 
+    border-radius: 7px;
+    border-color: transparent;
+}
