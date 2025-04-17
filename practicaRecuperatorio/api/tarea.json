@@ -41,6 +41,15 @@
         "nombre": "wqd",
         "valor": 3
       }
+    },
+    {
+      "id": "b55e",
+      "task": "dyeg",
+      "fecha": "2025-04-04",
+      "descripcion": {
+        "nombre": "de",
+        "valor": 5
+      }
     }
   ]
 }
