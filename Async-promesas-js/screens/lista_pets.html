@@ -30,31 +30,29 @@
       <nav>
         <ul class="header__list-nav">
           <li class="header__link"><a href="#">Dashboard</a></li>
-          <li class="header__link"><a href="lista_producto.html">Productos</a></li>
-          <li class="header__link"><a href="lista_cliente.html">lista</a></li>
-          <li class="header__link"><a href="lista_pets.html">Pets</a></li>
+          <li class="header__link"><a href="./lista_producto.html">Productos</a></li>
+          <li class="header__link"><a href="./lista_cliente.html">Clientes</a></li>
+          <li class="header__link"><a href="./lista_pets.html">Pets</a></li>
         </ul>
       </nav>
     </header>
-
     <main class="clientes-container">
       <table class="table">
         <thead>
           <tr>
             <th class="table__column--p">Nombre</th>
-            <th class="table__column--g">Email</th>
+            <th class="table__column--g">Edad</th>
+            <th class="table__column--g">Descripción</th>
             <th class="table__column--m table__align--right">
               <a
-                href="./registrar_cliente.html"
+                href="./registrar_pets.html"
                 class="simple-button simple-button--add"
-                >Nuevo Cliente</a
+                >Nueva Mascota</a
               >
             </th>
           </tr>
         </thead>
-        <tbody data-table>
-          
-        </tbody>
+        <tbody data-table></tbody>
       </table>
       <div class="modal-container modal--close">
         <article class="modal">
@@ -70,6 +68,6 @@
         </article>
       </div>
     </main>
+    <script type="module" src="../controllers/pet_controller.js"></script>
   </body>
-  <script type="module" src="../controllers/client_controller.js"></script>
 </html>

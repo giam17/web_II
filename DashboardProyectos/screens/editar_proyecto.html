@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Editar Proyecto</title>
+  <link rel="stylesheet" href="../assets/css/base.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Editar Proyecto</h1>
+    <form data-form>
+      <input type="text" placeholder="Nombre" data-nombre />
+      <textarea placeholder="Descripción" data-descripcion></textarea>
+      <select data-estado>
+        <option value="En desarrollo">En desarrollo</option>
+        <option value="Terminado">Terminado</option>
+        <option value="Pausado">Pausado</option>
+      </select>
+      <input type="text" placeholder="Tecnologías" data-tecnologias />
+      <input type="date" data-inicio />
+      <input type="date" data-fin />
+      <input type="url" placeholder="Enlace" data-enlace />
+      <button type="submit">Guardar</button>
+    </form>
+  </main>
+  <script type="module" src="../controllers/actualizar_proyecto_controller.js"></script>
+</body>
+</html>

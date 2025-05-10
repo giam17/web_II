@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registrar Proyecto</title>
+  <link rel="stylesheet" href="../assets/css/base.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Registrar Proyecto</h1>
+    <form data-form>
+      <input type="text" placeholder="Nombre del proyecto" data-nombre required />
+      <textarea placeholder="Descripción breve" data-descripcion required></textarea>
+      <select data-estado required>
+        <option value="">Estado</option>
+        <option value="En desarrollo">En desarrollo</option>
+        <option value="Terminado">Terminado</option>
+        <option value="Pausado">Pausado</option>
+      </select>
+      <input type="text" placeholder="Tecnologías usadas" data-tecnologias required />
+      <input type="date" data-inicio required />
+      <input type="date" data-fin required />
+      <input type="url" placeholder="Enlace GitHub o demo (opcional)" data-enlace />
+      <button type="submit">Registrar</button>
+    </form>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+  <script type="module" src="../controllers/registro_proyecto_controller.js"></script>
+</body>
+</html>

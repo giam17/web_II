@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Dashboard de Proyectos</title>
+  <link rel="stylesheet" href="./assets/css/base.css" />
+</head>
+<body>
+  <header class="header">
+    <h1>📋 Dashboard de Proyectos Personales</h1>
+    <nav>
+      <a href="./screens/registrar_proyecto.html" class="nav-button">+ Nuevo Proyecto</a>
+    </nav>
+  </header>
+
+  <main class="container">  
+    <div class="project-grid" data-lista></div>
+  </main>
+
+  <script type="module" src="./controllers/proyecto_controller.js"></script>
+</body>
+</html>

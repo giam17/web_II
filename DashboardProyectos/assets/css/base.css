@@ -1,0 +1,138 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f3f4f6;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    padding: 30px;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  .header {
+    background-color: #111827;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+  
+  .nav-button {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  /* Estilo de la grilla de tarjetas */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+  }
+  
+  /* Tarjeta de proyecto */
+  .card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #1f2937;
+  }
+  
+  .card p {
+    margin: 6px 0;
+  }
+  
+  .card a {
+    color: #2563eb;
+    font-weight: bold;
+  }
+  
+  .card a[href*="editar"] {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #10b981;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card a[href*="editar"]:hover {
+    background-color: #059669;
+  }
+  
+  .card button {
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card button:hover {
+    background-color: #dc2626;
+  }
+  
+  /* Formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  input, textarea, select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d1d5db;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color: #2563eb;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #1d4ed8;
+  }
+  
