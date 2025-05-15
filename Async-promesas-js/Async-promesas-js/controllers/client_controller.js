@@ -1,7 +1,7 @@
 import {clientService} from "../service/client-service.js"
-const crear_nueva_fila=(nombre,email,id)=>{// recepciono datos 
-    const fila = document.createElement('tr');// creo una nueva filla en la tabla
-    //guardo html en una variable y tambien llamo a mis datos de entrada
+const crear_nueva_fila=(nombre,email,id)=>{
+    const fila = document.createElement('tr');
+
     const contenido = `
             <td class="td" data-td>
             ${nombre}
@@ -44,7 +44,8 @@ const crear_nueva_fila=(nombre,email,id)=>{// recepciono datos
 // _----------- mejorado codigo ordenado limpio--------------
 const table = document.querySelector("[data-table]");
 clientService
-.listaclientes()
+.listaClientes()
+
     .then((data)=>{
     data.forEach(({nombre,email,id}) => {
                 const nuevaLinea= crear_nueva_fila(nombre,email,id)// llamo a 3 referencias
