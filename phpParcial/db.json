@@ -1,0 +1,64 @@
+{
+  "salas": [
+    {
+      "id_sa": 1,
+      "descripcion_sa": "Sala Principal",
+      "id": "e33a"
+    },
+    {
+      "id": "5989",
+      "descripcion_sa": "Sala Secundaria"
+    }
+  ],
+  "peliculas": [
+    {
+      "id_pe": 1,
+      "descripcion_pe": "Batman",
+      "horario_pe": "20:00",
+      "id_sa": 1,
+      "id": "a4cf"
+    },
+    {
+      "id": "d21d",
+      "descripcion_pe": "batman 2",
+      "horario_pe": "05:30",
+      "id_sa": 5989
+    },
+    {
+      "id": "6334",
+      "descripcion_pe": "Batman 3",
+      "horario_pe": "10:00",
+      "id_sa": 1
+    }
+  ],
+  "boletos": [
+    {
+      "id_bo": 1,
+      "descripcion_bo": "General",
+      "precio_bo": 50,
+      "id_pe": 1,
+      "id": "3b87"
+    },
+    {
+      "id": "cae2",
+      "descripcion_bo": "General 2",
+      "precio_bo": 20,
+      "id_pe": 6334
+    }
+  ],
+  "clientes": [
+    {
+      "id_cl": 1,
+      "nombre": "Pedro",
+      "email": "pedro@email.com",
+      "id_bo": 1,
+      "id": "d878"
+    },
+    {
+      "id": "cdfc",
+      "nombre": "Giam",
+      "email": "tejerinalucass3@gmail.com",
+      "id_bo": 1
+    }
+  ]
+}
